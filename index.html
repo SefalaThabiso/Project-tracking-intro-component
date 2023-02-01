@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#"><img src="./images/logo.svg" alt="Logo" /></a>
+          <button
+            class="mobile-nav-toggle"
+            aria-controls="navigation"
+            aria-expanded="false"
+          >
+            <span class="visually-hidden">Menu</span>
+            <img
+              class="icon-hamburger"
+              src="./images/icon-hamburger.svg"
+              aria-hidden="true"
+              alt=""
+            />
+            <img
+              class="icon-close"
+              src="./images/icon-close.svg"
+              aria-hidden="true"
+              alt=""
+            />
+          </button>
+          <nav class="navigation">
+            <ul
+              aria-label="navigation"
+              id="navigation"
+              role="list"
+              class="nav-list"
+            >
+              <li><a href="#">PRODUCT</a></li>
+              <li><a href="#">FEATURES</a></li>
+              <li><a href="#">PRICING</a></li>
+              <li class="login-link"><a href="#">LOGIN</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="hero">
+          <img src="./images/illustration-devices.svg" alt="laptop" />
+        </div>
+        <div class="text-area">
+          <div class="title flex-elements">
+            <div class="new">NEW</div>
+            <div class="monograph">MONOGRAPH DASHBOARD</div>
+          </div>
+          <h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+          <p>Project planning and and time tracking for agile teams</p>
+          <div class="demo-preview flex-elements">
+            <button>SCHEDULE A DEMO</button>
+            <span>TO SEE A PREVIEW</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
